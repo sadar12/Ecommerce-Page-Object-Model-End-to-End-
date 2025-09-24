@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="EcommerceSuite">
+    <test name="LoginTests">
+        <classes>
+            <class name="com.automation.tests.LoginTest"/>
+            <class name="com.automation.tests.EndtoEnd"/>
+              <class name="com.automation.tests.CheckoutTest"/>
+            
+        </classes>
+    </test>
+</suite>

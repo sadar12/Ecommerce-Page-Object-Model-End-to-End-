@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-25T01:35:34 PKT" name="EcommerceSuite" finished-at="2025-09-25T01:36:33 PKT" duration-ms="58159">
+    <groups>
+    </groups>
+    <test started-at="2025-09-25T01:35:34 PKT" name="LoginTests" finished-at="2025-09-25T01:36:33 PKT" duration-ms="58159">
+      <class name="com.automation.tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.tests.LoginTest@4562e04d]" started-at="2025-09-25T01:35:34 PKT" name="setUp" finished-at="2025-09-25T01:35:50 PKT" duration-ms="15070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validLoginTest()[pri:1, instance:com.automation.tests.LoginTest@4562e04d]" started-at="2025-09-25T01:35:50 PKT" name="validLoginTest" finished-at="2025-09-25T01:35:51 PKT" duration-ms="1250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.tests.LoginTest@4562e04d]" started-at="2025-09-25T01:35:51 PKT" name="tearDown" finished-at="2025-09-25T01:35:51 PKT" duration-ms="486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.tests.LoginTest@4562e04d]" started-at="2025-09-25T01:35:51 PKT" name="setUp" finished-at="2025-09-25T01:35:55 PKT" duration-ms="3594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidLoginTest()[pri:2, instance:com.automation.tests.LoginTest@4562e04d]" started-at="2025-09-25T01:35:55 PKT" name="invalidLoginTest" finished-at="2025-09-25T01:35:56 PKT" duration-ms="1084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.tests.LoginTest@4562e04d]" started-at="2025-09-25T01:35:56 PKT" name="tearDown" finished-at="2025-09-25T01:35:56 PKT" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.tests.LoginTest@4562e04d]" started-at="2025-09-25T01:35:56 PKT" name="setUp" finished-at="2025-09-25T01:35:59 PKT" duration-ms="3120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="emptyUsernameTest()[pri:3, instance:com.automation.tests.LoginTest@4562e04d]" started-at="2025-09-25T01:35:59 PKT" name="emptyUsernameTest" finished-at="2025-09-25T01:36:02 PKT" duration-ms="2668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyUsernameTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.tests.LoginTest@4562e04d]" started-at="2025-09-25T01:36:02 PKT" name="tearDown" finished-at="2025-09-25T01:36:03 PKT" duration-ms="456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.tests.LoginTest -->
+      <class name="com.automation.tests.EndtoEnd">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.tests.EndtoEnd@1d296da]" started-at="2025-09-25T01:36:03 PKT" name="setUp" finished-at="2025-09-25T01:36:07 PKT" duration-ms="4236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="completeUserJourneyTest()[pri:0, instance:com.automation.tests.EndtoEnd@1d296da]" started-at="2025-09-25T01:36:07 PKT" name="completeUserJourneyTest" finished-at="2025-09-25T01:36:08 PKT" duration-ms="1554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeUserJourneyTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.tests.EndtoEnd@1d296da]" started-at="2025-09-25T01:36:08 PKT" name="tearDown" finished-at="2025-09-25T01:36:09 PKT" duration-ms="500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.tests.EndtoEnd -->
+      <class name="com.automation.tests.CheckoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.tests.CheckoutTest@7c7a06ec]" started-at="2025-09-25T01:36:09 PKT" name="setUp" finished-at="2025-09-25T01:36:11 PKT" duration-ms="2364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="successfulCheckoutTest()[pri:1, instance:com.automation.tests.CheckoutTest@7c7a06ec]" started-at="2025-09-25T01:36:11 PKT" name="successfulCheckoutTest" finished-at="2025-09-25T01:36:17 PKT" duration-ms="5247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulCheckoutTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.tests.CheckoutTest@7c7a06ec]" started-at="2025-09-25T01:36:17 PKT" name="tearDown" finished-at="2025-09-25T01:36:17 PKT" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.tests.CheckoutTest@7c7a06ec]" started-at="2025-09-25T01:36:17 PKT" name="setUp" finished-at="2025-09-25T01:36:21 PKT" duration-ms="4407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkoutWithMissingInformationTest()[pri:2, instance:com.automation.tests.CheckoutTest@7c7a06ec]" started-at="2025-09-25T01:36:21 PKT" name="checkoutWithMissingInformationTest" finished-at="2025-09-25T01:36:25 PKT" duration-ms="3580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutWithMissingInformationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.tests.CheckoutTest@7c7a06ec]" started-at="2025-09-25T01:36:25 PKT" name="tearDown" finished-at="2025-09-25T01:36:25 PKT" duration-ms="436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.tests.CheckoutTest@7c7a06ec]" started-at="2025-09-25T01:36:25 PKT" name="setUp" finished-at="2025-09-25T01:36:29 PKT" duration-ms="3660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkoutPriceVerificationTest()[pri:3, instance:com.automation.tests.CheckoutTest@7c7a06ec]" started-at="2025-09-25T01:36:29 PKT" name="checkoutPriceVerificationTest" finished-at="2025-09-25T01:36:32 PKT" duration-ms="3228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutPriceVerificationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.tests.CheckoutTest@7c7a06ec]" started-at="2025-09-25T01:36:32 PKT" name="tearDown" finished-at="2025-09-25T01:36:33 PKT" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.tests.CheckoutTest -->
+    </test> <!-- LoginTests -->
+  </suite> <!-- EcommerceSuite -->
+</testng-results>

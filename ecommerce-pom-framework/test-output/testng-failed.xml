@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [EcommerceSuite]">
+  <test thread-count="5" name="LoginTests(failed)">
+    <classes>
+      <class name="com.automation.tests.CheckoutTest">
+        <methods>
+          <include name="checkoutPriceVerificationTest"/>
+          <include name="setUp"/>
+          <include name="checkoutWithMissingInformationTest"/>
+          <include name="tearDown"/>
+          <include name="successfulCheckoutTest"/>
+        </methods>
+      </class> <!-- com.automation.tests.CheckoutTest -->
+    </classes>
+  </test> <!-- LoginTests(failed) -->
+</suite> <!-- Failed suite [EcommerceSuite] -->
